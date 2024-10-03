@@ -87,4 +87,9 @@ public class ProviderController {
     public String home(){
         return "provider-view/provider-home";
     }
+
+    @GetMapping("/provider-statistics")
+    public String providerStats() {
+        return "provider-view/statistics";
+    }
 }

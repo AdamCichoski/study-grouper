@@ -55,7 +55,7 @@ select {
     background-color: white;
     color: blue;
     border: solid 2px blue;
-    margin-top: 10px;
+    margin: 10px 0;
     font-weight: bold;
     border-radius: 25px;
     padding: 10px 20px;
@@ -68,4 +68,10 @@ select {
 
 p {
     display: inline-block;
+}
+
+div > a {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.75em;
 }
